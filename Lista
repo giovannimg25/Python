@@ -1,0 +1,23 @@
+lista = [] # Creamos una lista vacía para almacenar los números ingresados por el usuario
+
+# Inicializamos las variables para la suma, la media y el número ingresado
+suma = 0
+media = 0
+numero = 0
+
+# Pedimos al usuario que ingrese 10 números y los almacenamos en la lista
+for i in range(10):
+    numero = int(input("Dame un numero: "))  # Solicitamos un número entero al usuario
+    lista.append(numero) # Agregamos el número ingresado a la lista
+    suma += numero # Sumamos el número ingresado al total acumulado
+
+# Imprimimos los números almacenados en la lista uno por uno
+for i in lista:
+    print(i)
+
+# Calculamos la media de los números ingresados
+media = suma / len(lista)
+
+# Imprimimos la suma y la media de los números ingresados
+print("\nLa suma es", suma)
+print("\nLa media es", media)
