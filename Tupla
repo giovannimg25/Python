@@ -1,0 +1,8 @@
+tupla = (1,2,3,4,5,6,7,8,9,10) ## Definimos una tupla con números del 1 al 10
+
+indice = int(input("Dame un indice: ")) ## Pedimos al usuario que ingrese un índice
+
+if indice >=0 and indice <=len(tupla):  ## Verificamos si el índice ingresado es válido
+    print(tupla[indice]) # Imprimimos el elemento de la tupla en el índice proporcionado
+else:
+    print("Indice no valido.")  # Si el índice no es válido, imprimimos un mensaje de error
