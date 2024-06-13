@@ -1,2 +1,3 @@
 # Python
-Programas de Python
+Autor: Giovanni Melo García 
+Programas de Python basicos y complejos 
