@@ -1,0 +1,7 @@
+lista = [] #Creacion de lista
+
+for i in range(10): #Usamos el ciclo for para iterar 10 veces 
+    lista.append(i+1) #usamos un contador para asegurar que vaya del 1 al 10
+    print(lista[i]) #Imprimimos el elementos actual de la lista 
+
+    
